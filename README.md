@@ -31,7 +31,8 @@ return [
 ## Usage
 write on your terminal 
 ```bash
- php artisan vendor:publish --provider="Emad\ContactUsPackage\ContactServiceProvider" --tag="config"
+ php artisan vendor:publish 
+  choice --provider="Emad\ContactUsPackage\ContactServiceProvider"
  php artisan migrate
 ```
 
