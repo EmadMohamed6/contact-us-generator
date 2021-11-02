@@ -1,6 +1,6 @@
 # Contact Us Generator
 
-This Package use create form contact us with [ blade , migrations , config Email to receive all contact request ] ,when you need receive any date on your admin email from website or system
+This Package use create form contact us with [ blade , migrations , config Email to receive all contact request ] ,when you need receive any data on your admin email from website or system
 ## Installation
 
 Using [composer](https://getcomposer.org/) to install routable.
