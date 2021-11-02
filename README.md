@@ -32,6 +32,7 @@ return [
 write on your terminal 
 ```bash
  php artisan vendor:publish --provider="Emad\ContactUsPackage\ContactServiceProvider" --tag="config"
+ php artisan migrate
 ```
 
 ## Check
