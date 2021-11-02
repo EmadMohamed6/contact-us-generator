@@ -30,9 +30,8 @@ return [
 
 ## Usage
 write on your terminal 
-```php
-php artisan vendor:publish
-choice emad package number
+```bash
+ php artisan vendor:publish --provider="Emad\ContactUsPackage\ContactServiceProvider"
 ```
 
 ## Check
