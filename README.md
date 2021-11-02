@@ -31,7 +31,7 @@ return [
 ## Usage
 write on your terminal 
 ```bash
- php artisan vendor:publish --provider="Emad\ContactUsPackage\ContactServiceProvider"
+ php artisan vendor:publish --provider="Emad\ContactUsPackage\ContactServiceProvider" --tag="config"
 ```
 
 ## Check
