@@ -1,0 +1,19 @@
+{
+    "name": "emad/contact-us-package",
+    "description": "This Package use in any contact us form when you need receive any date on your admin email",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Emad\\ContactUsPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emad Mohamed",
+            "email": "emmohamed9106@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
