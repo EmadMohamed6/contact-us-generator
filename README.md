@@ -3,7 +3,7 @@
 This Package use create form contact us with [ blade , migrations , config Email to receive all contact request ] ,when you need receive any data on your admin email from website or system
 ## Installation
 
-Using [composer](https://getcomposer.org/) to install routable.
+Using [composer](https://getcomposer.org/) to install contact-us-package.
 
 ```bash
 composer require emad/contact-us-package
