@@ -19,21 +19,21 @@ add in your ```providers```
     Emad\ContactUsPackage\ContactServiceProvider::class,
 ];
 ```
+
+## Usage
+write on your terminal
+```bash
+ php artisan vendor:publish 
+  choice --provider="Emad\ContactUsPackage\ContactServiceProvider"
+ php artisan migrate
+```
 ## Preparing your Email to receive contact request
-in your ```contact\src\contact.php```
+in your ```config\contact.php```
 add  ```email```
 ```php
 return [
     'send_email_to' => 'email@example.com'
 ];
-```
-
-## Usage
-write on your terminal 
-```bash
- php artisan vendor:publish 
-  choice --provider="Emad\ContactUsPackage\ContactServiceProvider"
- php artisan migrate
 ```
 
 ## Check
